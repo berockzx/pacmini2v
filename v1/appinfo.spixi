@@ -1,7 +1,0 @@
-caVersion = 0
-id = ixipac
-publisher = brkzx
-name = Pacman Mini
-version = 1.0.1
-capabilities = singleUser
-description = Pacman Mini‑dApp per Spixi, con controlli touch integrati.

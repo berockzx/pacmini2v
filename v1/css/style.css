@@ -1,8 +1,0 @@
-body{font-family:sans-serif;background:#000;color:#fff;text-align:center;margin:0;padding:0}
-canvas{background:#000;border:1px solid #444;margin-top:10px;border-radius:8px}
-.status{margin:10px auto;display:flex;justify-content:center;gap:20px}
-button{cursor:pointer;padding:6px 12px}
-#touch-controls {display:none;position:fixed;bottom:40px;left:0;right:0;text-align:center;z-index:10;}
-#touch-controls .btn-row {margin:4px 0;}
-#touch-controls button {width:64px;height:64px;font-size:24px;background:rgba(255,255,255,0.15);color:#fff;border:2px solid #ccc;border-radius:12px;margin:4px;}
-@media (pointer:coarse){#touch-controls{display:block !important;}}
