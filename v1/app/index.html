@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pacman Mini</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/spixi-shim.js"></script>
+  <script defer src="js/pacman.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Pacman Mini</h1>
+    <div class="status">
+      <span>Punteggio: <strong id="score">0</strong></span>
+      <span>Vite: <strong id="lives">3</strong></span>
+      <button id="btn-restart" title="Ricomincia (R)">Ricomincia</button>
+    </div>
+  </header>
+
+  <main>
+    <canvas id="game" width="560" height="620" aria-label="Pacman canvas"></canvas>
+    <div class="help">
+      <p>Usa le frecce ← ↑ → ↓ per muoverti o i controlli touch.</p>
+    </div>
+  </main>
+
+  <div id="touch-controls" aria-label="Controlli touch" hidden>
+    <div class="btn-row">
+      <button data-dir="up">↑</button>
+    </div>
+    <div class="btn-row">
+      <button data-dir="left">←</button>
+      <button data-dir="right">→</button>
+    </div>
+    <div class="btn-row">
+      <button data-dir="down">↓</button>
+    </div>
+  </div>
+
+  <footer>
+    <small>Spixi Mini‑dApp demo · HTML/JS puro · Controlli touch integrati</small>
+  </footer>
+</body>
+</html>
