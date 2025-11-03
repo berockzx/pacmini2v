@@ -1,0 +1,13 @@
+caVersion = 0
+id = ixipac
+publisher = brkzx
+name = Pacman Mini
+version = 1.0.1
+capabilities = singleUser
+image = pacman-mini.png
+minUsers = 
+maxUsers = 
+protocols = 
+contentUrl = pacman-mini.zip
+checksum = 42694086ec5897aabcb0f4987d36ab50bdc1ae9a3e042e67b49d177c922b39a0
+contentSize = 1033
