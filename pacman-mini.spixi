@@ -9,5 +9,5 @@ minUsers =
 maxUsers = 
 protocols = 
 contentUrl = pacman-mini.zip
-checksum = 47f9f654100293a121021df63b351009ae33236c7cd63ddb7aace6ada8da8984
-contentSize = 1033
+checksum = 5854fc4bba9aeeb86d655eaea0ef81a38c1c306f624cb4d0153157b2176eb88d
+contentSize = 1045
